@@ -1,0 +1,39 @@
+p{
+    color: gray;
+}
+/* navbar */
+.navbar-nav a{
+    color: #000;
+}
+.navbar-nav :hover{
+    color: rgb(255, 209, 109);
+}
+/* Carousel */
+.buy-btn{
+    padding: 10px 20px;
+    background-color: black;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: orange;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 1%;
+}
+.carousel-item .col-md-7{
+    padding: 60px;
+}
+.carousel-indicators li{
+    background-color: orange;
+    height: 10px;
+    width: 2%;
+    border:none;
+    border-radius: 100px;
+    transition: 0.5s all ease;
+}
+.carousel-indicators .active{
+    width: 8%;
+}
