@@ -1,6 +1,9 @@
 p{
     color: gray;
 }
+.container{
+    margin-bottom: 60px;
+}
 /* navbar */
 .navbar-nav a{
     color: #000;
@@ -36,4 +39,49 @@ p{
 }
 .carousel-indicators .active{
     width: 8%;
+}
+/* Smartphone & Laptop */
+.product{
+    margin-bottom: 20px;
+}
+.card{
+    background-color: white;
+    border:none;
+    box-shadow:5px 5px 10px lightgray ;
+    border-radius: 20px;
+    padding: 50px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-footer{
+    background-color: white;
+    border:none;
+}
+
+/* Category */
+.category-rows{
+    margin-top: 60px;
+}
+.categories{
+    min-height: 500px;
+}
+.categories img{
+    width: 100%;
+}
+.categories h3{
+    text-align: center;
+}
+.categories h3::after{
+    content:"";
+    background-image: linear-gradient(to right, rgb(243, 201, 86), orange 50%);
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+/* footer */
+footer{
+    text-align: center;
 }
